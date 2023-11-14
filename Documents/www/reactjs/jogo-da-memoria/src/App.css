@@ -1,0 +1,61 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu>p {
+    font-size: 20px;
+}
+
+.menu>h1 {
+    text-align: center;
+}
+
+.menu-difuldades>button {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    transition: 0.9s background-color;
+    border-radius: 10px;
+}
+
+.menu-difuldades>button:hover {
+    background: var(--cor-primaria);
+
+    color: var(--cor-texto-claro)
+}
+
+.App {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.App .btn-home {
+    border: 0 none;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 40px;
+
+}
+
+.slide .s1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 250px;
+    height: 90%;
+    width: 400px;
+    margin: 20px;
+}

@@ -1,0 +1,25 @@
+.Grid-dificil {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    padding: 0 20px;
+}
+
+.text>button {
+    width: 100px;
+    height: 40px;
+    border: 0 none;
+    transition: 0.9s;
+    border-radius: 10px;
+}
+
+.text>button:hover {
+    background: var(--cor-primaria);
+    color: var(--cor-texto-claro)
+}
+
+@media only screen and (max-width: 375px) {
+    .Grid-dificil {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
